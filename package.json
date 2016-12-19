@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-fbq",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "An Ember CLI Addon to add support for Facebook Pixel",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,24 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TailorBrands/ember-cli-fbq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TailorBrands/ember-cli-fbq/issues"
+  },
+  "author": "Guy Maliar <guy@tailorbrands.com>",
+  "contributors": [
+    {
+      "name": "Guy Maliar",
+      "email": "guy@tailorbrands.com"
+    },
+    {
+      "name": "Nadav Shatz",
+      "email": "nadav@tailorbrands.com"
+    }
+  ],
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -40,7 +57,11 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "facebook",
+    "facebook ads",
+    "analytics",
+    "tracking"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"
