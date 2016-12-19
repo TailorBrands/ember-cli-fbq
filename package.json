@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-fbq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Ember CLI Addon to add support for Facebook Pixel",
   "directories": {
     "doc": "doc",
