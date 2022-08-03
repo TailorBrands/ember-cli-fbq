@@ -12,6 +12,17 @@ This plugin uses the ember-cli project's configuration as defined in `config/env
 
 Add your heap projectId to `config/environment.js` and you're good to go.
 
+Starting from version 3.0.0 we now support multiple pixel ids:
+```js
+// environment.js
+
+    ENV.fbq = {
+        enabled: true,
+        ids: ['xxxxxxxxxxxxxxx', 'yyyyyyyyyyyyyyy']
+    }
+```
+
+Before version 3.0.0:
 ```js
 // environment.js
 
