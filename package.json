@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-fbq",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "An Ember CLI Addon to add support for Facebook Pixel",
   "keywords": [
     "ember-addon",
@@ -79,10 +79,6 @@
     "url": "https://github.com/TailorBrands/ember-cli-fbq/issues"
   },
   "contributors": [
-    {
-      "name": "Guy Maliar",
-      "email": "guy@tailorbrands.com"
-    },
     {
       "name": "Nadav Shatz",
       "email": "nadav@tailorbrands.com"
