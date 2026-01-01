@@ -9,4 +9,12 @@ setApplication(Application.create(config.APP));
 
 setup(QUnit.assert);
 
+/* global require */
+// Ensure tests are loaded
+try {
+  require('dummy/tests/unit/sanity-test');
+} catch (e) {
+  console.warn('Could not load sanity test', e);
+}
+
 start();
