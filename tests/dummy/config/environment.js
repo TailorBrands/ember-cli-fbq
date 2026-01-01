@@ -17,6 +17,11 @@ module.exports = function (environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     },
+
+    fbq: {
+      enabled: true,
+      ids: ['123456789'],
+    },
   };
 
   if (environment === 'development') {
