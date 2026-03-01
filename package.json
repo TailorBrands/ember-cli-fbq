@@ -91,5 +91,8 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "overrides": {
+    "serialize-javascript": ">=7.0.3"
   }
 }
